@@ -1,40 +1,96 @@
--- ds.page: Welcome to doc-site
+-- import: newsletter/assets
+-- import: newsletter/lib
+
+-- ftd.column:
+padding.px: 150
+padding-top.px: 50
+border-width.px: 1
+width: fill-container
+height.fixed.px: 800
+background.solid: hsl(234, 29%, 20%)
+align-content: top-center
+
+-- ftd.row: 
+border-width.px: 0
+border-radius.px: 150
+width: fill-container
+height: fill-container
+background.solid: white
+color: hsl(231, 7%, 60%)
+
+-- ftd.column:
+padding-top.px: 100
+padding-left.px: 100
+padding-bottom.px: 50
+padding-right.px: 85
+align-content: left
 
 
-⚡️ `doc-site` will help you create a beautiful documentation site in no time.
+-- ftd.row:
+width: fill-container
+align-content: top-center
 
-It provides out-of-the-box documentation features that can be used to create any
-kind of site(personal website, blog, etc).
-
-[Click here](https://fastn-community.github.io/doc-site/) to read doc-site
-documentation.
-
--- ds.h3: 🚀 Fast Track 
-
-Create your first fastn [web-site](https://fastn.com/expander/hello-world/-/build/) 
-project in just 5 minutes!
-
--- ds.h3: 🌟 Whats next?
-
-Create your first page. 
-[Click here to know more](https://fastn-community.github.io/doc-site/components/page/).
-
--- ds.h3: 👀 Want to learn more?
-
-Feel free to check [our expander course](https://fastn.com/expander/) or jump
-into our [FifthTry Discord server](https://discord.gg/bucrdvptYd).
+-- ftd.text: # Stay Updated!!
+color:  hsl(234, 29%, 20%)
+padding-bottom.px: 50
 
 
--- ds.h3: 🎯 Used by?
+-- end: ftd.row
 
-Our all documentation sites uses this `doc-site` theme.
+-- ftd.text: Join 60,000+ product managers receiving monthly updates on
+padding-bottom.px: 20
 
-- [fastn.com](https://fastn.com/home/)
-- [FifthTry.com](https://www.fifthtry.com/)
+-- ftd.text: Product discovery and building what matters
+padding-bottom.px: 20
 
--- ds.h2: Learn fastn and become a pro?
+-- ftd.text: Measuring to ensure updates are a success 
+padding-bottom.px: 20
 
-You are one click away, just check [our documentation](https://fastn.com/) and 
-dont forget to jump into our [FifthTry Discord server](https://discord.gg/bucrdvptYd).
+-- ftd.text: And much more!
 
--- end: ds.page
+-- ftd.text: Email address 
+color:  hsl(234, 29%, 20%)
+padding-top.px: 25
+padding-bottom.px: 10
+
+-- ftd.column: 
+padding-bottom.px: 15
+
+-- ftd.text-input:
+placeholder: xyz@company.com
+padding-horizontal.px: 25
+padding-vertical.px: 10
+width.fixed.px: 350
+border-width.px: 1
+border-color: $inherited.colors.border
+border-radius.px: 6
+
+-- end: ftd.column
+
+-- lib.button: Subscribe to monthly newsletter
+link: https://www.linkedin.com/in/tushar-pamnani
+
+
+-- end: ftd.column
+
+-- ftd.column: 
+width: fill-container
+padding-right.px: 50
+padding-bottom.px: 0
+padding-top.px: 35
+background.solid: white
+border-color: white
+border-width.px: 0
+border-radius.px: 150
+
+-- ftd.image:
+src: $assets.files.images.illustration.svg
+height.fixed.px: 500
+
+
+-- end: ftd.column
+
+
+-- end: ftd.row
+
+-- end: ftd.column
